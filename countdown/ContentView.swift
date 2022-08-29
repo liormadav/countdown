@@ -38,21 +38,29 @@ struct ContentView: View {
                     timerRunning = true
                 }
                 
-//                Button("Stop"){
-//                    timerRunning = false
-//                }
+                Button("Stop"){
+                    timerRunning = false
+                }
 
-                
                 Button("Reset"){
-                    countDownTimer = lastCountDownTimer
+                    countDownTimer = 5
+                    lastCountDownTimer = 5
                 }.foregroundColor(.red)
 
+                Button("Last count down"){
+                    countDownTimer = lastCountDownTimer
+                }.foregroundColor(.red)
+                
+
             }
-            HStack(spacing: 30){
+            HStack(spacing: 50){
                 Button("+5"){
                     countDownTimer += 5
-                    lastCountDownTimer += 5
-                }.foregroundColor(.green)
+                    lastCountDownTimer = countDownTimer
+                }
+                .foregroundColor(.green)
+                .padding()
+                .font(.system(size: 23, weight: .bold))
             }
         }
         }
