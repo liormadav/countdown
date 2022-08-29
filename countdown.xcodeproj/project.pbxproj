@@ -14,6 +14,7 @@
 		AFEF17CE28BCE27700627A00 /* countdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF17CD28BCE27700627A00 /* countdownTests.swift */; };
 		AFEF17D828BCE27700627A00 /* countdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF17D728BCE27700627A00 /* countdownUITests.swift */; };
 		AFEF17DA28BCE27700627A00 /* countdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF17D928BCE27700627A00 /* countdownUITestsLaunchTests.swift */; };
+		AFEF17E728BCE33A00627A00 /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF17E628BCE33A00627A00 /* Content-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AFEF17D328BCE27700627A00 /* countdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFEF17D728BCE27700627A00 /* countdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdownUITests.swift; sourceTree = "<group>"; };
 		AFEF17D928BCE27700627A00 /* countdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFEF17E628BCE33A00627A00 /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				AFEF17BC28BCE27400627A00 /* countdownApp.swift */,
 				AFEF17BE28BCE27400627A00 /* ContentView.swift */,
+				AFEF17E628BCE33A00627A00 /* Content-ViewModel.swift */,
 				AFEF17C028BCE27700627A00 /* Assets.xcassets */,
 				AFEF17C228BCE27700627A00 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				AFEF17BF28BCE27400627A00 /* ContentView.swift in Sources */,
 				AFEF17BD28BCE27400627A00 /* countdownApp.swift in Sources */,
+				AFEF17E728BCE33A00627A00 /* Content-ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
